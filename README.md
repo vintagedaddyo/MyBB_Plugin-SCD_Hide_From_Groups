@@ -1,0 +1,1 @@
+# MyBB_Plugin-SCD_Hide_From_Groups
