@@ -298,7 +298,7 @@ function scd_hide_fg_parse_message($message)
 	
 }
 
-function scd_hide_fg_parse_reply($page)
+function scd_hide_fg_parse_reply(&$page)
 {
 	
 	global $db, $mybb, $fid;
