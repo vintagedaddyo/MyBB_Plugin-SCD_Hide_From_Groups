@@ -203,7 +203,7 @@ function scd_hide_fg_is_installed()
 	
 	global $db;
 	
-	$query = $db->simple_select("settinggroups", "COUNT(*) as rows", "name='scd_hide_fg'");
+	$query = $db->simple_select("settinggroups", "COUNT(*) as `rows`", "name='scd_hide_fg'");
 	
 	$zrows = $db->fetch_field($query, "rows");
 	
